@@ -1,0 +1,23 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+        .container {
+            &_comedy {
+                display: flex;
+                flex-direction: row;
+                img {
+                    width: 100%;
+                }
+            }
+            
+        }
+
+    }
+}

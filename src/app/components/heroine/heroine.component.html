@@ -1,1 +1,9 @@
-<p>heroine works!</p>
+<h3>LOS 5 MÁS POPULARES HOY</h3>
+<div class="pelistop">
+    <div class="pelistop__list" *ngFor="let element of topFilms">
+        <h2>{{element.number}}</h2>
+        <img src="{{element.image}}" alt="">
+    </div>
+</div>
+
+

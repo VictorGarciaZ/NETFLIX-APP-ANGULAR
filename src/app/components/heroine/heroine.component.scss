@@ -1,0 +1,31 @@
+.pelistop{
+    display:flex;
+    justify-content: row;
+
+    &__list{
+        display: flex;
+        width: 20%;
+        height: 200px;
+        flex-direction: row;
+        align-items: center;
+
+        h2{
+            font-size: 205px;
+            width: 50%;
+            font-size: 205px;
+            width: 50%;
+            margin-right: -15px;
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: lighter;
+            text-shadow: 2px 2px 0 grey, 2px -2px 0 grey, -2px 2px 0 grey, -2px -2px 0 grey, 2px 0px 0 grey, 0px 2px 0 grey, -2px 0px 0 grey, 0px -2px 0 grey;
+            color: black;
+            background: none;
+        
+        }
+        img{
+            width: 120px;
+        }
+    }
+
+}

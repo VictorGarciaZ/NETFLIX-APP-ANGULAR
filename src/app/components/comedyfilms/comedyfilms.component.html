@@ -1,4 +1,10 @@
-<div *ngFor="let element of comedyFilms">
-    <h2>{{element.title}}</h2>
-    <img src="{{element.image}}" alt="">
+<div class="father">
+    <h3>COMEDIAS</h3>
+    <div class="father__container">
+        <div class="container_comedy" *ngFor="let element of comedyFilms">
+        <img class="comedy_img" src="{{element.image}}" alt="">
+        </div>
+    </div>
 </div>
+
+

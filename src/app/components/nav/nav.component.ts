@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
 
-  public image: string = "../../../assets/images/LOGO/logo_netflix_corto.jpg"
+  public image: string = "../../../assets/images/LOGO/warnerlogo.png"
 
 }
